@@ -202,9 +202,9 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
 ## 👤 Auteur
 
-**[Ton Nom]**
-- GitHub: [@ton-username](https://github.com/ton-username)
-- LinkedIn: [Ton Profil](https://linkedin.com/in/ton-profil)
+**Merphy Madamba**
+- GitHub: [@ton-username](https://github.com/https://github.com/Merph-lng)
+- LinkedIn: [Ton Profil](https://linkedin.com/in/https://www.linkedin.com/in/merph-dev?utm_source=share_via&utm_content=profile&utm_medium=member_android)
 
 ##  Remerciements
 
