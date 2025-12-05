@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ArtéNova Shop - Boutique de mode en ligne proposant vêtements et accessoires tendance">
+    <meta name="keywords" content="mode, vêtements, accessoires, boutique en ligne, e-commerce">
+    <meta name="author" content="ArtéNova Shop">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+    
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="assets/styles/variables.css">
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <link rel="stylesheet" href="assets/styles/header.css">
+    <link rel="stylesheet" href="assets/styles/footer.css">
+    <link rel="stylesheet" href="assets/styles/products.css">
+    
+    <title>ArtéNova Shop - Accueil | Mode & Accessoires</title>
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <!-- Logo -->
+                <div class="header__logo">
+                    <a href="/">
+                        <h1>ArtéNova Shop</h1>
+                    </a>
+                </div>
+
+                <!-- Navigation principale -->
+                <nav class="header__nav" id="mainNav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="/" class="nav__link nav__link--active">Accueil</a></li>
+                        <li class="nav__item"><a href="pages/products.html" class="nav__link">Produits</a></li>
+                        <li class="nav__item"><a href="pages/cart.html" class="nav__link">Panier <span class="cart-count" id="cartCount">0</span></a></li>
+                        <li class="nav__item"><a href="pages/contact.html" class="nav__link">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Bouton menu mobile -->
+                <button class="header__burger" id="burgerMenu" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contenu principal -->
+    <main class="main">
+        <!-- Section Hero / Bannière -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero__content">
+                    <h2 class="hero__title">Produit du mois !</h2>
+                    <p class="hero__text">Découvrez notre offre exceptionnelle sur une sélection de produits tendance.</p>
+                    <a href="pages/products.html" class="btn btn--primary">Voir les offres</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Liste de produits -->
+        <section class="products">
+            <div class="container">
+                <h2 class="section__title">Nos produits phares</h2>
+                
+                <div class="product-grid">
+                    <!-- Produit 1 -->
+                    <article class="product-card">
+                        <div class="product-card__image">
+                            <img src="assets/images/products/adidas-camps.jpg" alt="Adidas Camps" loading="lazy">
+                            <div class="product-card__badge">Nouveau</div>
+                        </div>
+                        <div class="product-card__content">
+                            <h3 class="product-card__title">Adidas Camps</h3>
+                            <p class="product-card__description">Baskets de sport confortables et stylées</p>
+                            <div class="product-card__footer">
+                                <span class="product-card__price">79,99 €</span>
+                                <button class="btn btn--secondary" data-product-id="1">Ajouter au panier</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Produit 2 -->
+                    <article class="product-card">
+                        <div class="product-card__image">
+                            <img src="assets/images/products/air-force-one.jpg" alt="Air Force One" loading="lazy">
+                            <div class="product-card__badge product-card__badge--promo">-20%</div>
+                        </div>
+                        <div class="product-card__content">
+                            <h3 class="product-card__title">Air Force One</h3>
+                            <p class="product-card__description">Sneakers iconiques pour un look urbain</p>
+                            <div class="product-card__footer">
+                                <span class="product-card__price">
+                                    <span class="product-card__price--old">120,00 €</span>
+                                    96,00 €
+                                </span>
+                                <button class="btn btn--secondary" data-product-id="2">Ajouter au panier</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Produit 3 -->
+                    <article class="product-card">
+                        <div class="product-card__image">
+                            <img src="assets/images/products/chemise-plissee.jpg" alt="Complet Chemise Plissée" loading="lazy">
+                        </div>
+                        <div class="product-card__content">
+                            <h3 class="product-card__title">Complet Chemise Plissée</h3>
+                            <p class="product-card__description">Élégance et sophistication assurées</p>
+                            <div class="product-card__footer">
+                                <span class="product-card__price">149,99 €</span>
+                                <button class="btn btn--secondary" data-product-id="3">Ajouter au panier</button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="products__cta">
+                    <a href="pages/products.html" class="btn btn--outline">Voir tous les produits</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <!-- Newsletter -->
+            <div class="footer__newsletter">
+                <h3 class="footer__newsletter-title">Restez informé !</h3>
+                <p class="footer__newsletter-text">Recevez nos offres spéciales et nouveautés directement dans votre boîte mail.</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input 
+                        type="email" 
+                        class="newsletter-form__input" 
+                        placeholder="Votre adresse e-mail"
+                        required
+                        aria-label="Adresse email"
+                    >
+                    <button type="submit" class="btn btn--primary">S'inscrire</button>
+                </form>
+            </div>
+
+            <!-- Liens du footer -->
+            <div class="footer__links">
+                <div class="footer__column">
+                    <h4 class="footer__column-title">À propos</h4>
+                    <ul class="footer__list">
+                        <li><a href="pages/about.html" class="footer__link">Notre histoire</a></li>
+                        <li><a href="pages/contact.html" class="footer__link">Nous contacter</a></li>
+                        <li><a href="pages/faq.html" class="footer__link">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__column">
+                    <h4 class="footer__column-title">Service Client</h4>
+                    <ul class="footer__list">
+                        <li><a href="pages/shipping.html" class="footer__link">Livraison et Commande</a></li>
+                        <li><a href="pages/returns.html" class="footer__link">Politique de retour</a></li>
+                        <li><a href="pages/privacy.html" class="footer__link">Politique de confidentialité</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__column">
+                    <h4 class="footer__column-title">Suivez-nous</h4>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link" aria-label="Facebook">FB</a>
+                        <a href="#" class="footer__social-link" aria-label="Instagram">IG</a>
+                        <a href="#" class="footer__social-link" aria-label="Twitter">TW</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer__copyright">
+                <p>&copy; 2025 ArtéNova Shop - Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts JavaScript -->
+    <script src="assets/scripts/main.js"></script>
+    <script src="assets/scripts/cart.js"></script>
+    <script src="assets/scripts/newsletter.js"></script>
+</body>
+  </html>
