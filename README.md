@@ -203,8 +203,8 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 ## 👤 Auteur
 
 **Merphy Madamba**
-- GitHub: https://github.com/https://github.com/Merph-lng
-- LinkedIn: https://www.linkedin.com/in/merph-dev?utm_source=share_via&utm_content=profile&utm_medium=member_android)
+- GitHub: https://github.com/Merph-lng
+- LinkedIn: https://www.linkedin.com/in/merph-dev?utm_source=share_via&utm_content=profile&utm_medium=member_android
 
 ##  Remerciements
 
